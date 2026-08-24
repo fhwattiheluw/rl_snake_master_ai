@@ -1,0 +1,16 @@
+[project]
+name = "rl_snake"
+version = "0.1.0"
+description = "Snake game with reinforcement learning using Gymnasium and Stable Baselines3"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "gymnasium>=0.29.0",
+    "stable-baselines3>=2.0.0",
+    "torch>=2.0.0",
+    "pygame>=2.5.0",
+    "numpy>=1.24.0",
+    "tensorboard>=2.13.0",
+]
+
+[tool.uv]
+dev-dependencies = []
